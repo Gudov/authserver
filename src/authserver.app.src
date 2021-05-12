@@ -1,0 +1,23 @@
+{application, authserver,
+    [{description, "An OTP application"},
+        {vsn, "0.1.0"},
+        {registered, []},
+        {mod, {authserver_app, []}},
+        {applications,[
+            kernel,
+            stdlib,
+            bcrypt,
+            jiffy,
+            cowboy
+        ]},
+        {env,[
+            {sql_ip, "127.0.0.1"},
+            {sql_user, "site"},
+            {sql_password, "RzAz0kcNCZxQ88xk"},
+            {sql_db, "site"}
+        ]},
+        {modules, []},
+
+        {licenses, ["Apache 2.0"]},
+        {links, []}
+    ]}.
