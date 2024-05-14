@@ -13,7 +13,7 @@
         {env,[
             {sql_ip, "127.0.0.1"},
             {sql_user, "site"},
-            {sql_password, "RzAz0kcNCZxQ88xk"},
+            {sql_password, "RzAz0kcNCZxQ88xk"}, % outdated don't worry
             {sql_db, "site"}
         ]},
         {modules, []},
